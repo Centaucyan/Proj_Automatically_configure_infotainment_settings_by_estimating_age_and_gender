@@ -9,7 +9,7 @@
 
 ## 2. Environment
 * **OS:** Ubuntu 22.04 LTS(Jammy Jellyfish)
-* **Language:** Python(ver: 3.11)
+* **Language:** Python(ver: 3.11. conda 가상환경)
 ---
 
 ## 3. Pre-installation
