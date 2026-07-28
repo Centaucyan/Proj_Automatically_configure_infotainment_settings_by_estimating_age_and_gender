@@ -20,7 +20,7 @@
 
 ## 4. Execute Commands
 ```bash
-# 1. ros2_ws 이동
+# 1. deepface 폴더로 이동
 cd Proj_Age_and_gender_estimation_based_on_facial_images/deepface/
 python -m pip install -e .
 ```
