@@ -9,18 +9,23 @@
 
 ## 2. Environment
 * **OS:** Ubuntu 22.04 LTS(Jammy Jellyfish)
-* **Language:** Python(ver: 3.11. conda 가상환경)
+* **Language:** Python(ver: 3.12. conda 가상환경)
 ---
 
 ## 3. Pre-installation
-* $ python -m pip install pyyaml typeguard
-* $ python -m pip install tf-keras
-    * tf-keras 설치 시 오류가 발생한다면 아래 '4. 과정' 이후에 시도
+```bash
+python -m pip install jinja2 pyyaml typeguard
+
+#. deepface 폴더로 이동
+cd Proj_Age_and_gender_estimation_based_on_facial_images/ai_model/deepface/
+python -m pip install -e .
+
+python -m pip install tf-keras
+```
 ---
 
 ## 4. Execute Commands
 ```bash
-# 1. deepface 폴더로 이동
-cd Proj_Age_and_gender_estimation_based_on_facial_images/deepface/
-python -m pip install -e .
+
 ```
+---
