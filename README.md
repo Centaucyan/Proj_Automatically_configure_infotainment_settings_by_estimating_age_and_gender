@@ -14,7 +14,7 @@
 
 ## 3. Pre-installation
 ```bash
-python -m pip install jinja2 pyyaml typeguard
+python -m pip install jinja2 pyyaml typeguard matplotlib
 
 #. deepface 폴더로 이동
 cd Proj_Age_and_gender_estimation_based_on_facial_images/ai_model/deepface/
