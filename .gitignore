@@ -1,3 +1,4 @@
 #. Visual Studio cache
 .vs/
 .vscode/
+__pycache__/

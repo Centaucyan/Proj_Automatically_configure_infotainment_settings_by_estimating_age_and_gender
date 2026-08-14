@@ -85,7 +85,6 @@ AGE_CONTROL_POLICY = {
 ### 💻 소스코드 (`src/devices/camera.py`)
 ```python
 import cv2
-import os
 
 class VideoStreamReader:
     """비디오 파일 또는 USB 카메라 신호를 수집하고 헬스체크를 수행하는 클래스"""

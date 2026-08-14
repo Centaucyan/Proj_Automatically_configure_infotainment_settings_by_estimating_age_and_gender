@@ -15,14 +15,21 @@
 
 ## 3. Pre-installation
 ```bash
+#. 주의) Conda 가상환경에 설치
+############################################################
+#. DeepFace 모델 사용을 위해 설치
+############################################################
 python -m pip install jinja2 pyyaml typeguard matplotlib
 
-#. deepface 폴더로 이동
+##. deepface 폴더로 이동
 cd Proj_Age_and_gender_estimation_based_on_facial_images/ai_model/deepface/
 
 python -m pip install -e .
 
 python -m pip install tf-keras
+############################################################
+
+python -m pip install pytest
 ```
 ---
 
